@@ -1,8 +1,7 @@
 ﻿using System;
 
-public class Class1
+namespace Projet_ProgSyst
+class Main
 {
-	public Class1()
-	{
-	}
+	
 }
