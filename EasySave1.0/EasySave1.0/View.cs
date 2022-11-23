@@ -70,6 +70,7 @@ Use the arrows in order to select your choice.
             WriteLine("Choose a language :");
             WriteLine("1 - Français");
             WriteLine("2 - English");
+            WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
             RunMainMenu();
         }
@@ -82,6 +83,7 @@ Use the arrows in order to select your choice.
             WriteLine("The Easy Save software was developed by ProSoft in November 2022.");
             WriteLine("\nThe team responsible for this project is composed of Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
             WriteLine("\n© EasySave 2022-2022");
+            WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
             RunMainMenu();
             
