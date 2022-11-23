@@ -10,8 +10,9 @@ namespace EasySave
     {
         static void Main(string[] args)
         {
-            View myView = new View();
-            myView.Start();
+            ViewEN myViewEN = new ViewEN();
+            ViewFR myViewFR = new ViewFR();
+            myViewEN.Start();
         }
     }
 }

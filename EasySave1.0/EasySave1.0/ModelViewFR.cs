@@ -6,13 +6,13 @@ using static System.Console;
 
 namespace EasySave
 {
-    class Menu
+    class MenuFR
     {
         private int SelectedIndex; //Numéro de l'option sélectionnée
         private string[] Options;
         private string Prompt;
 
-        public Menu(string prompt, string[] options)
+        public MenuFR(string prompt, string[] options)
         {
             Prompt = prompt;
             Options = options;
@@ -45,7 +45,7 @@ namespace EasySave
             ResetColor();
         }
 
-        public int Run() //Fonction permettant de sélectionner avec les flèches
+        public int Lance() //Fonction permettant de sélectionner avec les flèches
         {
             ConsoleKey keyPressed;
             do
