@@ -8,12 +8,6 @@ namespace EasySave
 {
     class Model
     {
-        public void Start()
-        {
-            WriteLine("EsaySave is starting !");
-
-            WriteLine("Press any key to exit...");
-            ReadKey(true);
-        }
+        
     }
 }
