@@ -71,6 +71,7 @@ Use the arrows in order to select your choice.
             WriteLine("1 - Français");
             WriteLine("2 - English");
             ReadKey(true);
+            RunMainMenu();
         }
 
 
@@ -82,6 +83,7 @@ Use the arrows in order to select your choice.
             WriteLine("\nThe team responsible for this project is composed of Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
             WriteLine("\n© EasySave 2022-2022");
             ReadKey(true);
+            RunMainMenu();
             
         }
 
