@@ -8,7 +8,7 @@ namespace EasySave
 {
     class Menu
     {
-        private int SelectedIndex;
+        private int SelectedIndex; //Numéro de l'option sélectionnée
         private string[] Options;
         private string Prompt;
 
@@ -19,7 +19,7 @@ namespace EasySave
             SelectedIndex = 0;
         }
         
-        private void DisplayOptions()
+        private void DisplayOptions() //Fonction qui affiche les options et change les couleurs pour le texte sélectionné
         {
             WriteLine(Prompt);
             for (int i = 0; i < Options.Length; i++)
@@ -45,7 +45,7 @@ namespace EasySave
             ResetColor();
         }
 
-        public int Run()
+        public int Run() //Fonction permettant de sélectionner avec les flèches
         {
             ConsoleKey keyPressed;
             do
@@ -59,10 +59,18 @@ namespace EasySave
                 if (keyPressed == ConsoleKey.UpArrow)
                 {
                     SelectedIndex--;
+                    if (SelectedIndex == -1)
+                    {
+                        SelectedIndex = Options.Length - 1;
+                    }
                 }
                 else if (keyPressed == ConsoleKey.DownArrow)
                 {
                     SelectedIndex++;
+                    if (SelectedIndex == Options.Length)
+                    {
+                        SelectedIndex = 0;
+                    }
                 }
 
             } while (keyPressed != ConsoleKey.Enter);
