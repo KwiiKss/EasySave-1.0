@@ -32,7 +32,7 @@ Welcome to EasySave 1.0. Save what you want where you want ..
 Use the arrows in order to select your choice.
 ";
             string[] options = { "Move your file", "Move your folder", "Change the language in french", "About us", "Exit" };
-            MenuEN mainMenu = new MenuEN(prompt, options);
+            Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Run();
 
             switch (selectedIndex)
@@ -67,6 +67,7 @@ Use the arrows in order to select your choice.
 
         private static void Languages()
         {
+            Title = "EasySave - Logiciel de sauvegarde";
             ViewFR.RunMainMenuFR();
         }
 
@@ -97,11 +98,6 @@ Use the arrows in order to select your choice.
     // Menu en français
     class ViewFR
     {
-        public void Demarre()
-        {
-            Title = "EasySave - Logiciel de Sauvegarde";
-            RunMainMenuFR();
-        }
 
         public static void RunMainMenuFR()
         {
@@ -120,8 +116,8 @@ Bienvenue dans EasySave 1.0. Sauvegardez ce que vous voulez où vous voulez ..
 Utilisez les flèches pour sélectionner votre choix.
 ";
             string[] options = { "Déplacez votre fichier", "Déplacez votre dossier", "Changez la langue en anglais", "A propos de nous", "Quitter" };
-            MenuFR mainMenu = new MenuFR(prompt, options);
-            int selectedIndex = mainMenu.Lance();
+            Menu mainMenu = new Menu(prompt, options);
+            int selectedIndex = mainMenu.Run();
 
             switch (selectedIndex)
             {
@@ -155,6 +151,7 @@ Utilisez les flèches pour sélectionner votre choix.
 
         private static void Langues()
         {
+            Title = "EasySave - Backup Software";
             ViewEN.RunMainMenuEN();
         }
 

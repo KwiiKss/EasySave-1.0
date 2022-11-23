@@ -11,7 +11,6 @@ namespace EasySave
         static void Main(string[] args)
         {
             ViewEN myViewEN = new ViewEN();
-            ViewFR myViewFR = new ViewFR();
             myViewEN.Start();
         }
     }

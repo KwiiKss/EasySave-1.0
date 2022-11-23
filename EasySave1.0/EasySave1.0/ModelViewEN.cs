@@ -6,13 +6,13 @@ using static System.Console;
 
 namespace EasySave
 {
-    class MenuEN
+    class Menu
     {
         private int SelectedIndex; //Numéro de l'option sélectionnée
         private string[] Options;
         private string Prompt;
 
-        public MenuEN(string prompt, string[] options)
+        public Menu(string prompt, string[] options)
         {
             Prompt = prompt;
             Options = options;
