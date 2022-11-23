@@ -11,7 +11,7 @@ namespace EasySave
         static void Main(string[] args)
         {
             Model myModel = new Model();
-            myModel.Start;
+            myModel.Start();
         }
     }
 }
