@@ -10,23 +10,20 @@ namespace EasySave
 	{
         public void Start()
         {
-            string prompt = "Welcome to EasySave 1.0. Save what you want where you want ..";
-            string[] options = { "Move your folder", "Languages", "Exit" };
+            string prompt = @"
+███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
+██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
+█████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
+██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
+███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
+╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   by ProSoft.  
+                                                                                      
+Welcome to EasySave 1.0, ''Save what you want where you want ..''";
+            string[] options = { "Move your file", "Move your folder", "Languages", "About us", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
-            mainMenu.DisplayOptions();
-            WriteLine("Press Enter to exit...");
-           
-            ConsoleKeyInfo keyPressed = ReadKey();
-            if (keyPressed.Key == ConsoleKey.Enter)
-            {
-                WriteLine("You pressed ENTER");
-            }
-            else
-            {
-                WriteLine("You pressed another key");
-            }
+            int selectedIndex = mainMenu.Run();
 
-            
+            WriteLine("Press Enter to exit...");
             ReadKey(true);
         }
     }
