@@ -67,9 +67,10 @@ Use the arrows in order to select your choice.
         private void Languages()
         {
             Console.Clear();
+            WriteLine("Choose a language :");
             WriteLine("1 - Français");
             WriteLine("2 - English");
-            ReadKey(false);
+            ReadKey(true);
         }
 
 
