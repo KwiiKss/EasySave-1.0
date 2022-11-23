@@ -25,10 +25,10 @@ namespace EasySave
 ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   by ProSoft.  
 
                                                                                       
-Welcome to EasySave 1.0, Save what you want where you want ..
+Welcome to EasySave 1.0. Save what you want where you want ..
 
 
-Use the arrows in order to select.
+Use the arrows in order to select your choice.
 ";
                 string[] options = { "Move your file", "Move your folder", "Languages", "About us", "Exit" };
                 Menu mainMenu = new Menu(prompt, options);
@@ -66,13 +66,22 @@ Use the arrows in order to select.
 
         private void Languages()
         {
-
+            Console.Clear();
+            WriteLine("1 - Français");
+            WriteLine("2 - English");
+            ReadKey(false);
         }
 
 
         private void DisplayAboutUs()
         {
-
+            Console.Clear();
+            WriteLine("");
+            WriteLine("The Easy Save software was developed by ProSoft in November 2022.");
+            WriteLine("\nThe team responsible for this project is composed of Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
+            WriteLine("\n© EasySave 2022-2022");
+            ReadKey(true);
+            
         }
 
         private void Exit()
