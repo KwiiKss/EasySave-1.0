@@ -9,13 +9,13 @@ namespace EasySave
     // Menu en anglais
     class ViewEN
     {
-        public void Start()
+        public void Start() // Méthode de démarrage de l'application qui affiche l'application en anglais et change le titre de la console
         {
             Title = "EasySave - Backup SoftWare";
             RunMainMenuEN();
         }
 
-        public static void RunMainMenuEN()
+        public static void RunMainMenuEN() // Méthode qui affiche tout le menu anglais
         {
             string prompt = @"
 ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
@@ -65,13 +65,13 @@ Use the arrows in order to select your choice.
 
         }
 
-        private static void Languages()
+        private static void Languages() // Méthode qui affiche la page en français (changement de langue)
         {
             Title = "EasySave - Logiciel de sauvegarde";
             ViewFR.RunMainMenuFR();
         }
 
-        private static void DisplayAboutUs()
+        private static void DisplayAboutUs() // Méthode qui affiche la page de "A propos de"
         {
             Console.Clear();
             WriteLine("");
@@ -84,7 +84,7 @@ Use the arrows in order to select your choice.
 
         }
 
-        private static void Exit()
+        private static void Exit() // Méthode qui affiche la page "Exit" et quitte l'application si une touche est pressée
         {
             Console.Clear();
             WriteLine("Press any key to exit...");
@@ -99,7 +99,7 @@ Use the arrows in order to select your choice.
     class ViewFR
     {
 
-        public static void RunMainMenuFR()
+        public static void RunMainMenuFR() // Méthode qui affiche tout le menu en français
         {
             string prompt = @"
 ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
@@ -149,13 +149,13 @@ Utilisez les flèches pour sélectionner votre choix.
 
         }
 
-        private static void Langues()
+        private static void Langues() // Méthode qui affiche la page en anglais (changement de langue)
         {
             Title = "EasySave - Backup Software";
             ViewEN.RunMainMenuEN();
         }
 
-        private static void AffiApropos()
+        private static void AffiApropos() // Méthode qui affiche la page de "A propos de"
         {
             Console.Clear();
             WriteLine("");
@@ -168,7 +168,7 @@ Utilisez les flèches pour sélectionner votre choix.
 
         }
 
-        private static void Quitter()
+        private static void Quitter() // Méthode qui affiche la page "Quitter" et quitte l'application si une touche est pressée
         {
             Console.Clear();
             WriteLine("Appuyez sur une touche pour quitter...");
@@ -177,4 +177,3 @@ Utilisez les flèches pour sélectionner votre choix.
         }
     }
 }
-

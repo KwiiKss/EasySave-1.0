@@ -6,7 +6,7 @@ using static System.Console;
 
 namespace EasySave
 {
-    class Menu
+    class Menu // Classe pour les fonctionnalités du menu
     {
         private int SelectedIndex; //Numéro de l'option sélectionnée
         private string[] Options;
@@ -18,7 +18,7 @@ namespace EasySave
             Options = options;
             SelectedIndex = 0;
         }
-        
+
         private void DisplayOptions() //Fonction qui affiche les options et change les couleurs pour le texte sélectionné
         {
             WriteLine(Prompt);
