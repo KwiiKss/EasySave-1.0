@@ -12,7 +12,7 @@ namespace EasySave
 {
     class Program
     {
-        static void Main(string[] args)
+        static public void Main(string[] args)
         {
             ViewEN myViewEN = new ViewEN();
             myViewEN.Start();
@@ -25,7 +25,6 @@ namespace EasySave
             var sw = new Stopwatch();
             try
             {
-
                 sw.Start();
                 File.Move(pathes, path);
                 Console.WriteLine("Moved");

@@ -57,7 +57,7 @@ Use the arrows in order to select your choice.
 
         private static void MoveFile()
         {
-
+            myModel.Move(jsonString, paths);
         }
 
         private static void MoveFolder()
@@ -141,7 +141,7 @@ Utilisez les flèches pour sélectionner votre choix.
 
         private static void DeplacerFichier()
         {
-
+            //sViewFR.Move();
         }
 
         private static void DeplacerDossier()
