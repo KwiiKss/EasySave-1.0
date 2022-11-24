@@ -57,7 +57,7 @@ Use the arrows in order to select your choice.
 
         private static void MoveFile()
         {
-            myModel.Move(jsonString, paths);
+            //myModel.Move(jsonString, paths);
         }
 
         private static void MoveFolder()
