@@ -33,7 +33,7 @@ Use the arrows in order to select your choice.
 ";
             string[] options = { "Move your file", "Move your folder", "Change the language in french", "About us", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
-            int selectedIndex = mainMenu.Run();
+            int selectedIndex = mainMenu.Select();
 
             switch (selectedIndex)
             {
@@ -117,7 +117,7 @@ Utilisez les flèches pour sélectionner votre choix.
 ";
             string[] options = { "Déplacez votre fichier", "Déplacez votre dossier", "Changez la langue en anglais", "A propos de nous", "Quitter" };
             Menu mainMenu = new Menu(prompt, options);
-            int selectedIndex = mainMenu.Run();
+            int selectedIndex = mainMenu.Select();
 
             switch (selectedIndex)
             {
@@ -171,7 +171,7 @@ Utilisez les flèches pour sélectionner votre choix.
         private static void Quitter()
         {
             Console.Clear();
-            WriteLine("Press any key to exit...");
+            WriteLine("Appuie sur une touche pour quitter...");
             ReadKey(true);
             Environment.Exit(0);
         }

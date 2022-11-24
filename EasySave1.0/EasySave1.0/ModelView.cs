@@ -45,7 +45,7 @@ namespace EasySave
             ResetColor();
         }
 
-        public int Run() //Fonction permettant de sélectionner avec les flèches
+        public int Select() //Fonction permettant de sélectionner avec les flèches
         {
             ConsoleKey keyPressed;
             do
