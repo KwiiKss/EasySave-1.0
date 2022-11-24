@@ -171,7 +171,7 @@ Utilisez les flèches pour sélectionner votre choix.
         private static void Quitter()
         {
             Console.Clear();
-            WriteLine("Appuie sur une touche pour quitter...");
+            WriteLine("Appuyez sur une touche pour quitter...");
             ReadKey(true);
             Environment.Exit(0);
         }
