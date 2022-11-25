@@ -13,6 +13,7 @@ Diagramme de séquence / Sequence Diagram
 Diagramme de classes / Class diagram
 ![Classe](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d04d1de0-3d65-4812-9cbe-7e139567fc7b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162128Z&X-Amz-Expires=86400&X-Amz-Signature=e806655588b4d2b0eb0a48b2a70d6680822e8badad02ffa35e2c75890a6e24c2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 FR/ Pour le diagramme de classe suivant le modèle (MVVM) , nous avons décidé que l’interface main ne pourrait que créer un objet Local qui lancerait des fonctions permettant la mise en place des sauvegardes/suppressions/créations en toute sécurité comme le propose le C#.
+
 EN/the class diagram follow the model (MVVM), we decided that the main interface could only create a Local object which would launch functions allowing the establishment of the backups/deletes/creations in complete safety as proposed by C# .
 
 Diagramme de d'activité / Diagram of activity
