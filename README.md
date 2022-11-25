@@ -45,7 +45,7 @@ Diagram use case
 * EasySave 3.0 - Not Yet
 
 ======
-
+#### Menu in console application :
 ![Capture d’écran 2022-11-25 223113](https://user-images.githubusercontent.com/93579099/204057176-23216e41-0e69-4a93-8698-d01007aaa20a.png)
 
 The application launches and you arrive on the main menu. Thanks to this one you can change the language first or even see the credits of the application.
@@ -57,6 +57,7 @@ In these different options, the same steps return the application will ask you f
 
 Once your work is finished, simply select the "Exit" option and finally the application will close at the next key press.
 
-Thank you for choosing EasySave
 
-Contact us if needed: kevin.laurent@viacesi.fr
+### Thank you for choosing EasySave
+
+`Contact us if needed: kevin.laurent@viacesi.fr`
