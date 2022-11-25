@@ -7,16 +7,16 @@ Groupe 1 composé de Kévin LAURENT, Kilyion Romary, Hugo CORSO et Nicolas FOUQU
 
 ### Diagrammes UML
 
-Diagramme de séquence
+Diagramme de séquence / Sequence Diagram
 ![Séquences](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f05d425f-3468-4bcc-a42e-e24ac300e84c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T161450Z&X-Amz-Expires=86400&X-Amz-Signature=218537648a2f17960ede228a112be06812210d7dbb88c59b8eec667fb5bf88e9&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
-Diagramme de classes
+Diagramme de classes / Class diagram
 ![Classe](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d04d1de0-3d65-4812-9cbe-7e139567fc7b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162128Z&X-Amz-Expires=86400&X-Amz-Signature=e806655588b4d2b0eb0a48b2a70d6680822e8badad02ffa35e2c75890a6e24c2&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
-Diagramme de d'activité
+Diagramme de d'activité / Diagram of activity
 ![Activité](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/01eb167e-7fbe-4786-b94a-8050f508d5ba/Diagramme_Dactivit_Projet_2_Final_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162132Z&X-Amz-Expires=86400&X-Amz-Signature=e9bb9954c5173d42c06c10ea1f2fa200739e87244f551a8336a69c4f58fcc286&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Diagramme%2520D%27activit%25C3%25A9%2520Projet%25202%2520Final%2520%282%29.png%22&x-id=GetObject)
 
-Diagramme de cas d'utilisation
-![Cas d'utilisation](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1e734f3b-7a97-4fef-bd1d-00c1b00822eb/Use_Case.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162140Z&X-Amz-Expires=86400&X-Amz-Signature=ab7da3c73a3c2e7168f2001b52fe9f011136adb5059fda9f08bae9ff64181b4b&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Use%2520Case.png%22&x-id=GetObject)
+Diagramme de cas d'utilisation / Diagram use case
+![Use Case](https://user-images.githubusercontent.com/93580066/204036895-2816ec8a-f39b-498b-aaa7-f4346605f201.png)
 
 ### Document utilisateur
