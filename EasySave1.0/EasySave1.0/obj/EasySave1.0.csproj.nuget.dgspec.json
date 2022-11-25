@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\corso\\Source\\Repos\\Projet-Prog-Syst\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj": {}
+    "E:\\A3\\Prog Système\\Projet\\hugo\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\corso\\Source\\Repos\\Projet-Prog-Syst\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj": {
+    "E:\\A3\\Prog Système\\Projet\\hugo\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\corso\\Source\\Repos\\Projet-Prog-Syst\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj",
+        "projectUniqueName": "E:\\A3\\Prog Système\\Projet\\hugo\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj",
         "projectName": "EasySave1.0",
-        "projectPath": "C:\\Users\\corso\\Source\\Repos\\Projet-Prog-Syst\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj",
-        "packagesPath": "C:\\Users\\corso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\corso\\Source\\Repos\\Projet-Prog-Syst\\EasySave1.0\\EasySave1.0\\obj\\",
+        "projectPath": "E:\\A3\\Prog Système\\Projet\\hugo\\EasySave1.0\\EasySave1.0\\EasySave1.0.csproj",
+        "packagesPath": "C:\\Users\\kilyion\\.nuget\\packages\\",
+        "outputPath": "E:\\A3\\Prog Système\\Projet\\hugo\\EasySave1.0\\EasySave1.0\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\corso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kilyion\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -34,7 +34,7 @@ namespace EasySave
             File.Move(sourceFileName, destFileName);
             sw.Stop();
             string Text = json.SetJson(sourceFileName,destFileName,size,sw.ElapsedMilliseconds);
-            json.FileLog(Text,@"C:\Users\kilyion\source\repos\Log\");
+            json.FileLog(Text);
             WriteLine($"\n-> The file moved in {destFileName}.");
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
@@ -125,9 +125,9 @@ namespace EasySave
             string jsonString = JsonSerializer.Serialize(json);
             return jsonString;
         }
-         public void FileLog (string json,string path)
+         public void FileLog (string json)
         { 
-         path ="Log"+ DateTime.Now.ToString("dd/M/y")+".txt" ;
+         string path = @"C:\Users\kilyion\source\repos\Log\test.txt" ;
             if (!File.Exists(path))
             {
                 try

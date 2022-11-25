@@ -40,3 +40,17 @@ C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\n
 C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.dll
 C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.pdb
 C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.genruntimeconfig.cache
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.exe
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.deps.json
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.runtimeconfig.json
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.runtimeconfig.dev.json
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.dll
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.pdb
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.csproj.AssemblyReference.cache
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.GeneratedMSBuildEditorConfig.editorconfig
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfoInputs.cache
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfo.cs
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.csproj.CoreCompileInputs.cache
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.dll
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.pdb
+E:\A3\Prog Système\Projet\hugo\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.genruntimeconfig.cache
