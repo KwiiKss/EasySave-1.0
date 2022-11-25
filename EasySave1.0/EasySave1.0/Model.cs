@@ -14,6 +14,7 @@ namespace EasySave
     {
         public static void MoveFile() // Method that moves a file form a source folder to a destination folder
         {
+            Console.Clear();
             Console.WriteLine("Enter your file with his type (ex : kilyion.txt):");
             string file = Console.ReadLine();
             Console.WriteLine("Enter the source of your file:");
@@ -28,15 +29,16 @@ namespace EasySave
             ReadKey(true);
             ViewEN.RunMainMenuEN();
         }
+
         public static void MoveFolder()  // Method that moves a folder form a source folder to a destination folder
         {
+            Console.Clear();
             Console.WriteLine("Enter your folder name:");
             string folder = Console.ReadLine();
             Console.WriteLine("Enter the source of your folder:");
             string source = Console.ReadLine();
             Console.WriteLine("Enter the destination of your folder:");
             string dest = Console.ReadLine();
-
 
             string sourceFolderName = @"C:\Users\kilyion\source\repos\" + source + "\\" + folder + "";
             string destFolderName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + folder + "";
@@ -45,8 +47,10 @@ namespace EasySave
             ReadKey(true);
             ViewEN.RunMainMenuEN();
         }
+
         public static void DeplacerFichier() // Méthode qui déplace un fichier d'un dossier source à un dossier destination
         {
+            Console.Clear();
             Console.WriteLine("Entrez le nom du fichier avec son type (ex : kilyion.txt):");
             string fichier = Console.ReadLine();
             Console.WriteLine("Entrez la source du fichier:");
@@ -63,13 +67,13 @@ namespace EasySave
         }
         public static void DeplacerDossier()  // Méthode qui déplace un dossier ainsi que son contenu d'une source à une destination
         {
+            Console.Clear();
             Console.WriteLine("Entrez le nom du dossier :");
             string dossier = Console.ReadLine();
             Console.WriteLine("Entrez la source du dossier:");
             string source = Console.ReadLine();
             Console.WriteLine("Entrez la destination du dossier:");
             string dest = Console.ReadLine();
-
 
             string sourceFolderName = @"C:\Users\kilyion\source\repos\" + source + "\\" + dossier + "";
             string destFolderName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + dossier + "";
