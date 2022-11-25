@@ -161,23 +161,23 @@ namespace EasySave
                 
                 try
                 {
-                    // Create the file, or overwrite if the file exists.
-                   
-                    {
-                        byte[] info = new UTF8Encoding(true).GetBytes(json);
-                        // Add some information to the file.
-                        File.WriteAllText(path," , "+json);
-                    }
 
-                    // Open the stream and read it back.
-                    using (StreamReader sr = File.OpenText(path))
+                    string content;
+                    using (StreamReader reader = new StreamReader(path))
                     {
-                        string s = "";
-                        while ((s = sr.ReadLine()) != null)
+                        content = reader.ReadToEnd();
+                       
+                        reader.Close();
+                    }; 
+                    using (StreamWriter sw = new StreamWriter(path))
                         {
-                            Console.WriteLine(s);
+                            sw.WriteLine(content +" , "+ json);
                         }
-                    }
+
+                    
+                    // Open the stream and read it back.
+                
+                    
                 }
                 catch (Exception ex)
                 {
