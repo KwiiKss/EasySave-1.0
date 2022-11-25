@@ -25,6 +25,7 @@ namespace EasySave
             string sourceFileName = @"C:\Users\kilyion\source\repos\" + source + "\\" + file + "";
             string destFileName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + file + "";
             File.Move(sourceFileName, destFileName);
+            WriteLine($"The file moved in {destFileName}.");
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
             ViewEN.RunMainMenuEN();
@@ -43,6 +44,7 @@ namespace EasySave
             string sourceFolderName = @"C:\Users\kilyion\source\repos\" + source + "\\" + folder + "";
             string destFolderName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + folder + "";
             Directory.Move(sourceFolderName, destFolderName);
+            WriteLine($"The folder moved in {destFolderName}.");
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
             ViewEN.RunMainMenuEN();
@@ -61,6 +63,7 @@ namespace EasySave
             string sourceFileName = @"C:\Users\kilyion\source\repos\" + source + "\\" + fichier + "";
             string destFileName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + fichier + "";
             File.Move(sourceFileName, destFileName);
+            WriteLine($"Le fichier a bien été déplacé dans {destFileName}.");
             WriteLine("\n\nAppuyez sur n'importe quel bouton pour revenir au menu...");
             ReadKey(true);
             ViewEN.RunMainMenuEN();
@@ -78,6 +81,7 @@ namespace EasySave
             string sourceFolderName = @"C:\Users\kilyion\source\repos\" + source + "\\" + dossier + "";
             string destFolderName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + dossier + "";
             Directory.Move(sourceFolderName, destFolderName);
+            WriteLine($"Le dossier a bien été déplacé dans {destFolderName}.");
             WriteLine("\n\nAppuyez sur n'importe quel bouton pour revenir au menu...");
             ReadKey(true);
             ViewEN.RunMainMenuEN();
