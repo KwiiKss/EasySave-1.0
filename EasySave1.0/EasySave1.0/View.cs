@@ -56,12 +56,12 @@ Use the arrows in order to select your choice.";
 
         private static void MoveFile()
         {
-            //File.Move(pathes, path);
+            Model.MoveFile();
         }
 
         private static void MoveFolder()
         {
-
+            Model.MoveFolder();
         }
 
         private static void Languages() // Méthode qui affiche la page en français (changement de langue)
@@ -138,12 +138,12 @@ Utilisez les flèches pour sélectionner votre choix.";
 
         private static void DeplacerFichier()
         {
-            //sViewFR.Move();
+            Model.DeplacerFichier();
         }
 
         private static void DeplacerDossier()
         {
-
+            Model.DeplacerDossier();
         }
 
         private static void Langues() // Méthode qui affiche la page en anglais (changement de langue)
