@@ -52,19 +52,29 @@ namespace EasySave
             ViewFR.RunMainMenuFR();
         }
 
-        public static void ShowFolders()
+        public static void ShowFolders() // Method that allow the user to check a list of all the files or folder in a searched folder
         {
             Console.Clear();
-
+            Console.WriteLine("Enter the path and the name of the folder:");
+            string nomCheminDossier = Console.ReadLine();
+            string[] cheminDossier = Directory.GetFileSystemEntries(nomCheminDossier);
+            Console.Clear();
+            foreach (string Dossier in cheminDossier) //check if there's an other file or folder if found at least one before
+                Console.WriteLine(Dossier);
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
             ViewEN.RunMainMenuEN();
         }
 
-        public static void MontrerDossiers()
+        public static void MontrerDossiers() // Methode qui permet de récuperer un list de tout les 
         {
             Console.Clear();
-
+            Console.WriteLine("Entrez le chemin ainsi que le nom du dossier :");
+            string pathFolderName = Console.ReadLine();
+            string[] pathFolder = Directory.GetFileSystemEntries(pathFolderName);
+            Console.Clear();
+            foreach (string Folder in pathFolder) // vérifie s'il y a un autre fichier ou un autre dossier après en avoir trouvé un
+                Console.WriteLine(Folder);
             WriteLine("\n\nAppuyez sur n'importe quelle touche pour revenir au menu...");
             ReadKey(true);
             ViewFR.RunMainMenuFR();
