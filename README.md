@@ -1,3 +1,5 @@
+![Capture d’écran 2022-11-25 223133](https://user-images.githubusercontent.com/93579099/204057195-c35e9a14-f8fd-4685-a549-e66a2233ad90.png)
+
 # System Programming Project - A3 IT
 
 ## Programming a backup software called EasySave
@@ -35,14 +37,26 @@ Diagram use case
 ## `Published versions` :
 
 ### Console version
-⋅⋅* EasySave 1.0 - 25/11/2022
-⋅⋅* EasySave 1.1 - Not Yet
+* EasySave 1.0 - 25/11/2022
+* EasySave 1.1 - Not Yet
 
 ### Graphic version
-⋅⋅* EasySave 2.0 - Not Yet
-⋅⋅* EasySave 3.0 - Not Yet
+* EasySave 2.0 - Not Yet
+* EasySave 3.0 - Not Yet
 
 ======
 
+![Capture d’écran 2022-11-25 223113](https://user-images.githubusercontent.com/93579099/204057176-23216e41-0e69-4a93-8698-d01007aaa20a.png)
 
+The application launches and you arrive on the main menu. Thanks to this one you can change the language first or even see the credits of the application.
+Following this, the application obviously offers you the possibility of creating a backup job, ie a folder creation available with the "Create a folder" option.
+Folder that you can then move to any storage medium using the "Move your folder" menu option. The same goes for moving files by going to the "Move your file" option.
+As soon as any file or folder is moved, you will have a single log file, which will be searchable in order to see at what time, what date and what file or folder was moved, etc.
 
+In these different options, the same steps return the application will ask you for a file or folder name then its source and destination path depending on the action you want.
+
+Once your work is finished, simply select the "Exit" option and finally the application will close at the next key press.
+
+Thank you for choosing EasySave
+
+Contact us if needed: kevin.laurent@viacesi.fr
