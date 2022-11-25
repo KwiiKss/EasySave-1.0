@@ -73,9 +73,8 @@ Use the arrows in order to select your choice.";
         private static void DisplayAboutUs() // Méthode qui affiche la page de "A propos de"
         {
             Console.Clear();
-            WriteLine("");
             WriteLine("The Easy Save software was developed by ProSoft in November 2022.");
-            WriteLine("\nThe team responsible for this project is composed of Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
+            WriteLine("The team responsible for this project is composed of Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
             WriteLine("\n© EasySave 2022-2022");
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
@@ -101,18 +100,18 @@ Use the arrows in order to select your choice.";
         public static void RunMainMenuFR() // Méthode qui affiche tout le menu en français
         {
             string prompt = @"
-            ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
-            ██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
-            █████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
-            ██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
-            ███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
-            ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   par ProSoft.  
+                ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
+                ██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
+                █████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
+                ██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
+                ███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
+                ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   par ProSoft.  
 
                                                                                       
-            Bienvenue dans EasySave 1.0. Sauvegardez ce que vous voulez où vous voulez ..
+Bienvenue dans EasySave 1.0. Sauvegardez ce que vous voulez où vous voulez ..
 
 
-            Utilisez les flèches pour sélectionner votre choix.";
+Utilisez les flèches pour sélectionner votre choix.";
             string[] options = { "Déplacez votre fichier", "Déplacez votre dossier", "Changez la langue en anglais", "A propos de nous", "Quitter" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Select();
@@ -156,9 +155,8 @@ Use the arrows in order to select your choice.";
         private static void AffiApropos() // Méthode qui affiche la page de "A propos de"
         {
             Console.Clear();
-            WriteLine("");
             WriteLine("L'application de sauvegarde EasySave a été développé en Novembre 2022.");
-            WriteLine("\nL'équipe responsable du projet est composée de Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
+            WriteLine("L'équipe responsable du projet est composée de Kévin LAURENT, Kilyion ROMARY, Hugo CORSO and Nicolas FOUQUE.");
             WriteLine("\n© EasySave 2022-2022");
             WriteLine("\n\nAppuyez sur n'importe quelle touche pour revenir au menu...");
             ReadKey(true);
