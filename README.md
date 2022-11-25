@@ -18,6 +18,7 @@ EN/the class diagram follow the model (MVVM), we decided that the main interface
 
 Diagramme de d'activité / Diagram of activity
 ![Activité](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/01eb167e-7fbe-4786-b94a-8050f508d5ba/Diagramme_Dactivit_Projet_2_Final_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20221125%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20221125T162132Z&X-Amz-Expires=86400&X-Amz-Signature=e9bb9954c5173d42c06c10ea1f2fa200739e87244f551a8336a69c4f58fcc286&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Diagramme%2520D%27activit%25C3%25A9%2520Projet%25202%2520Final%2520%282%29.png%22&x-id=GetObject)
+
 FR/ Notre diagramme d'activité permet de suivre avec exactitude les options, les choix ainsi que les chaînes d'actions qui s'effecturont durant l'exécution de EasySave
 Il permet aussi de visualer d'un coup d'oeil les différentes fonctionnalités implémentées et leur fonctionnement.
 
