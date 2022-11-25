@@ -4,7 +4,6 @@ C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasyS
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.runtimeconfig.dev.json
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.dll
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.pdb
-C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.csproj.AssemblyReference.cache
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfoInputs.cache
 C:\Users\lrent\Documents\CESI\Projet\A3\Programmation Système\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfo.cs

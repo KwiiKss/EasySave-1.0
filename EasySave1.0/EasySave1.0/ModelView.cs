@@ -9,8 +9,8 @@ namespace EasySave
     class Menu // Classe pour les fonctionnalités du menu
     {
         private int SelectedIndex; //Numéro de l'option sélectionnée
-        private string[] Options;
-        private string Prompt;
+        private readonly string[] Options;
+        private readonly string Prompt;
 
         public Menu(string prompt, string[] options)
         {

@@ -18,40 +18,56 @@ namespace EasySave
         public static void RunMainMenuEN() // Méthode qui affiche tout le menu anglais
         {
             string prompt = @"
-                ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
-                ██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
-                █████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
-                ██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
-                ███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
-                ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   by ProSoft.  
+███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
+██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
+█████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
+██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
+███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
+╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   by ProSoft.  
 
                                                                                       
 Welcome to EasySave 1.0. Save what you want where you want ..
 
 
 Use the arrows in order to select your choice.";
-            string[] options = { "Move your file", "Move your folder", "Change the language in french", "About us", "Exit" };
+            string[] options = { "Create a folder", "Show created folders", "Move your file", "Move your folder", "Change the language in french", "About us", "Exit" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Select();
 
             switch (selectedIndex)
             {
                 case 0:
-                    ViewEN.MoveFile();
+                    CreateFolder();
                     break;
                 case 1:
-                    MoveFolder();
+                    ShowFolders();
                     break;
                 case 2:
-                    Languages();
+                    MoveFile();
                     break;
                 case 3:
-                    DisplayAboutUs();
+                    MoveFolder();
                     break;
                 case 4:
+                    Languages();
+                    break;
+                case 5:
+                    DisplayAboutUs();
+                    break;
+                case 6:
                     Exit();
                     break;
             }
+        }
+        
+        private static void CreateFolder()
+        {
+            Model.CreateFolder();
+        }
+
+        private static void ShowFolders()
+        {
+            Model.ShowFolders();
         }
 
         private static void MoveFile()
@@ -100,40 +116,55 @@ Use the arrows in order to select your choice.";
         public static void RunMainMenuFR() // Méthode qui affiche tout le menu en français
         {
             string prompt = @"
-                ███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
-                ██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
-                █████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
-                ██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
-                ███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
-                ╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   par ProSoft.  
+███████╗ █████╗ ███████╗██╗   ██╗███████╗ █████╗ ██╗   ██╗███████╗     ██╗    ██████╗ 
+██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝██╔════╝██╔══██╗██║   ██║██╔════╝    ███║   ██╔═████╗
+█████╗  ███████║███████╗ ╚████╔╝ ███████╗███████║██║   ██║█████╗      ╚██║   ██║██╔██║
+██╔══╝  ██╔══██║╚════██║  ╚██╔╝  ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝       ██║   ████╔╝██║
+███████╗██║  ██║███████║   ██║   ███████║██║  ██║ ╚████╔╝ ███████╗     ██║██╗╚██████╔╝  
+╚══════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝     ╚═╝╚═╝ ╚═════╝   par ProSoft.  
 
                                                                                       
 Bienvenue dans EasySave 1.0. Sauvegardez ce que vous voulez où vous voulez ..
 
 
 Utilisez les flèches pour sélectionner votre choix.";
-            string[] options = { "Déplacez votre fichier", "Déplacez votre dossier", "Changez la langue en anglais", "A propos de nous", "Quitter" };
+            string[] options = { "Créez un dossier", "Voir les dossiers créés", "Déplacez votre fichier", "Déplacez votre dossier", "Changez la langue en anglais", "A propos de nous", "Quitter" };
             Menu mainMenu = new Menu(prompt, options);
             int selectedIndex = mainMenu.Select();
 
             switch (selectedIndex)
             {
                 case 0:
-                    DeplacerFichier();
+                    CréerDossier();
                     break;
                 case 1:
-                    DeplacerDossier();
+                    MontrerDossiers();
                     break;
                 case 2:
-                    Langues();
+                    DeplacerFichier();
                     break;
                 case 3:
-                    AffiApropos();
+                    DeplacerDossier();
                     break;
                 case 4:
+                    Langues();
+                    break;
+                case 5:
+                    AffiApropos();
+                    break;
+                case 6:
                     Quitter();
                     break;
             }
+        }
+
+        private static void CréerDossier()
+        {
+            Model.CreerDossier();
+        }
+        private static void MontrerDossiers()
+        {
+            Model.MontrerDossiers();
         }
 
         private static void DeplacerFichier()
@@ -161,7 +192,6 @@ Utilisez les flèches pour sélectionner votre choix.";
             WriteLine("\n\nAppuyez sur n'importe quelle touche pour revenir au menu...");
             ReadKey(true);
             RunMainMenuFR();
-
         }
 
         private static void Quitter() // Méthode qui affiche la page "Quitter" et quitte l'application si une touche est pressée

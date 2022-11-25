@@ -12,7 +12,7 @@ namespace EasySave
 {
     class Program
     {
-        static public void Main(string[] args)
+        static public void Main()
         {
             ViewEN myViewEN = new ViewEN();
             myViewEN.Start();
