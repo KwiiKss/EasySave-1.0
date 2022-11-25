@@ -29,10 +29,10 @@ namespace EasySave
 
                 if (i == SelectedIndex)
                 {
-                    prefix = "*";
+                    prefix = "-";
                     ForegroundColor = ConsoleColor.Black;
                     BackgroundColor = ConsoleColor.White;
-                    WriteLine($"{prefix} << {currentOption} >>");
+                    WriteLine($"{prefix}-> {currentOption}");
                 }
                 else
                 {
