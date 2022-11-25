@@ -10,10 +10,14 @@ using static System.Console;
 
 namespace EasySave
 {
+
     class Model
     {
+
         public static void MoveFile() // Method that moves a file form a source folder to a destination folder
         {
+            Model json = new Model();
+            var sw = new Stopwatch();
             Console.Clear();
             Console.WriteLine("Enter your file with his type (ex : kilyion.txt):");
             string file = Console.ReadLine();
@@ -24,7 +28,13 @@ namespace EasySave
 
             string sourceFileName = @"C:\Users\kilyion\source\repos\" + source + "\\" + file + "";
             string destFileName = @"C:\Users\kilyion\source\repos\" + dest + "\\" + file + "";
+            FileInfo fInfo = new FileInfo(sourceFileName);
+            float size = fInfo.Length;
+            sw.Start();
             File.Move(sourceFileName, destFileName);
+            sw.Stop();
+            string Text = json.SetJson(sourceFileName,destFileName,size,sw.ElapsedMilliseconds);
+            json.FileLog(Text,@"C:\Users\kilyion\source\repos\Log\");
             WriteLine($"\n-> The file moved in {destFileName}.");
             WriteLine("\n\nPress any key to return to the menu...");
             ReadKey(true);
@@ -70,6 +80,7 @@ namespace EasySave
         }
         public static void DeplacerDossier()  // Méthode qui déplace un dossier ainsi que son contenu d'une source à une destination
         {
+
             Console.Clear();
             Console.WriteLine("Entrez le nom du dossier :");
             string dossier = Console.ReadLine();
@@ -86,5 +97,95 @@ namespace EasySave
             ReadKey(true);
             ViewEN.RunMainMenuEN();
         }
+
+         public class Json
+    {
+         public String name {get; set; }
+        public String FileSource { get; set; }
+        public String FileTarget { get; set; }
+        public String destPath { get; set; }
+        public float FileSize { get; set; }
+        public long FileTransferTime { get; set; }
+        public String time { get; set; }
+
+
+    }
+
+        public string SetJson(string path , string despath, float size , long time)
+        {
+                var json = new Json {
+                name = "Move",
+                FileSource = path,
+                FileTarget = despath,
+                destPath = "",
+                FileSize = size,
+                FileTransferTime = time,
+                time = DateTime.Now.ToString("dd/M/y HH:mm:ss")
+            };
+            string jsonString = JsonSerializer.Serialize(json);
+            return jsonString;
+        }
+         public void FileLog (string json,string path)
+        { 
+         path ="Log"+ DateTime.Now.ToString("dd/M/y")+".txt" ;
+            if (!File.Exists(path))
+            {
+                try
+                {
+                    // Create the file, or overwrite if the file exists.
+                    using (FileStream fs = File.Create(path))
+                    {
+                        byte[] info = new UTF8Encoding(true).GetBytes(json);
+                        // Add some information to the file.
+                        fs.Write(info, 0, info.Length);
+                    }
+
+                    // Open the stream and read it back.
+                    using (StreamReader sr = File.OpenText(path))
+                    {
+                        string s = "";
+                        while ((s = sr.ReadLine()) != null)
+                        {
+                            Console.WriteLine(s);
+                        }
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }
+            else
+            {
+                
+                try
+                {
+                    // Create the file, or overwrite if the file exists.
+                   
+                    {
+                        byte[] info = new UTF8Encoding(true).GetBytes(json);
+                        // Add some information to the file.
+                        File.WriteAllText(path," , "+json);
+                    }
+
+                    // Open the stream and read it back.
+                    using (StreamReader sr = File.OpenText(path))
+                    {
+                        string s = "";
+                        while ((s = sr.ReadLine()) != null)
+                        {
+                            Console.WriteLine(s);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+
+            }
+        }
+
     }
 }

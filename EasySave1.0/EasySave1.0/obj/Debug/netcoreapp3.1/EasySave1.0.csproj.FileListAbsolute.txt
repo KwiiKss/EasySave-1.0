@@ -26,3 +26,17 @@ E:\A3\Prog Système\Projet\kromary\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3
 E:\A3\Prog Système\Projet\kromary\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.dll
 E:\A3\Prog Système\Projet\kromary\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.pdb
 E:\A3\Prog Système\Projet\kromary\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.genruntimeconfig.cache
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.csproj.AssemblyReference.cache
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfoInputs.cache
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.AssemblyInfo.cs
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.csproj.CoreCompileInputs.cache
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.dll
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.pdb
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.exe
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.deps.json
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.runtimeconfig.json
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.runtimeconfig.dev.json
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.dll
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\bin\Debug\netcoreapp3.1\EasySave1.0.pdb
+C:\Users\corso\Source\Repos\Projet-Prog-Syst\EasySave1.0\EasySave1.0\obj\Debug\netcoreapp3.1\EasySave1.0.genruntimeconfig.cache
