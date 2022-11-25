@@ -30,7 +30,7 @@ The class diagram follow the model (MVVM), we decided that the main interface co
 Our activity diagram allows us to follow exactly the options, choices and chains of actions that will be performed during the execution of EasySave
 It also allows us to see at a glance the different features implemented and how they work.
 
-Diagram use case
+### Diagram use case
 
 ![Use Case](https://user-images.githubusercontent.com/93580066/204036895-2816ec8a-f39b-498b-aaa7-f4346605f201.png)
 
