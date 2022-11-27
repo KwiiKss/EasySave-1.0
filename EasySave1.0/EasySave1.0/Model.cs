@@ -177,13 +177,13 @@ namespace EasySave
 
         public class Json
         {
-            public String name { get; set; }
+            public String Name { get; set; }
             public String FileSource { get; set; }
             public String FileTarget { get; set; }
-            public String destPath { get; set; }
+            public String DestPath { get; set; }
             public float FileSize { get; set; }
             public long FileTransferTime { get; set; }
-            public String time { get; set; }
+            public String Time { get; set; }
 
 
         }
@@ -196,20 +196,20 @@ namespace EasySave
             };
             var json = new Json
             {
-                name = "Move",
+                Name = "Move",
                 FileSource = path,
                 FileTarget = despath,
-                destPath = "",
+                DestPath = "",
                 FileSize = size,
                 FileTransferTime = time,
-                time = DateTime.Now.ToString("dd/M/y HH:mm:ss")
+                Time = DateTime.Now.ToString("dd/M/y HH:mm:ss")
             };
             string jsonString = JsonSerializer.Serialize(json);
             return jsonString;
         }
         public void FileLog(string json)
         {
-            string path = @"E:\A3\Prog Système\Projet\tests\Log";
+            string path = @"C:\Users\lrent\Desktop\log\log";
             if (!File.Exists(path))
             {
                 try
