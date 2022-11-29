@@ -57,7 +57,7 @@ Note also the presence of **include** and **extend**:
 * EasySave 1.1 - Not Yet
 
 ### Graphic version
-* EasySave 2.0 - Not Yet
+* EasySave 2.0 - In Progress
 * EasySave 3.0 - Not Yet
 
 ======
