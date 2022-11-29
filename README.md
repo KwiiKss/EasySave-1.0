@@ -2,7 +2,7 @@
 
 # System Programming Project - A3 IT
 
-## Programming a backup software called EasySave
+## Programming a backup software called EasySave 1.0
 
 Group 1 composed of Kévin LAURENT, Kilyion Romary, Hugo CORSO and Nicolas FOUQUE.
 
